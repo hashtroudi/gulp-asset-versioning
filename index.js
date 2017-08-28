@@ -56,7 +56,7 @@ module.exports = function (options) {
                         return str;
                     }
 
-                    var assetPath = path.join(filePath, src);
+                    var assetPath = options.assetPath || path.join(filePath, src);
 
                     if (src.indexOf('/') == 0) {
                         if (src.indexOf('//') != 0){
