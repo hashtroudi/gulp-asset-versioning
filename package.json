@@ -1,13 +1,13 @@
 {
-  "name": "gulp-asset-version",
+  "name": "gulp-asset-versioning",
   "version": "0.1.1",
   "description": "a plugin for gulp.js to add version after file's name by content hash.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oonne/gulp-asset-version.git"
+		"url": "git+https://github.com/hashtroudi/gulp-asset-versioning.git"
   },
-  "author": "JAY",
+  "author": "Morteza Hashtroudi",
   "engines": {
     "node": ">=0.12.0"
   },
@@ -17,19 +17,23 @@
   "keywords": [
     "gulpplugin",
     "asset version",
-    "md5"
+    "asset versioning",
+    "md5",
+		"cache-bust",
+		"cache bust",
+		"cache busting"
   ],
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.8",
     "through2": "^2.0.3"
   },
-  "homepage": "https://github.com/oonne/gulp-asset-version",
+	"homepage": "https://github.com/hashtroudi/gulp-asset-versioning.git",
   "bugs": {
-    "url": "https://github.com/oonne/gulp-asset-version/issues"
+		"url": "https://github.com/hashtroudi/gulp-asset-versioning/issues"
   },
   "maintainers": [
-    "JAY <JAY@oonne.com>"
+    "Morteza Hashtroudi <me@hashtroudi.com>"
   ],
   "directories": {
     "test": "test"

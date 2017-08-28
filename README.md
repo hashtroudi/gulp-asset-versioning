@@ -1,4 +1,4 @@
-# gulp-asset-version
+# gulp-asset-versioning
 
 A plugin for gulp.js to add version after file's name by content hash.
 ### `test.html` -> `test.html?v=7f499bc7`
@@ -30,6 +30,9 @@ gulp.task('html',function() {
 ```
 
 ## Options
+
+### assetPath: direct asset path to when using template engines.
+Type: `String` Default: ""
 
 ### rootPath: it should be assigned when the asset's path is an absolute path.
 Type: `String` Default: ""
