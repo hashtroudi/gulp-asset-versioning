@@ -1,0 +1,41 @@
+{
+  "name": "gulp-asset-version",
+  "version": "0.1.1",
+  "description": "a plugin for gulp.js to add version after file's name by content hash.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oonne/gulp-asset-version.git"
+  },
+  "author": "JAY",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "asset version",
+    "md5"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "homepage": "https://github.com/oonne/gulp-asset-version",
+  "bugs": {
+    "url": "https://github.com/oonne/gulp-asset-version/issues"
+  },
+  "maintainers": [
+    "JAY <JAY@oonne.com>"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
